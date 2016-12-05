@@ -1,0 +1,10 @@
+framework module SwiftFontello {
+  umbrella header "SwiftFontello.h"
+
+  export *
+  module * { export * }
+}
+
+module SwiftFontello.Swift {
+    header "SwiftFontello-Swift.h"
+}

@@ -1,0 +1,565 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8462A6A71DF587E000DCB26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A6A61DF587E000DCB26F /* AppDelegate.swift */; };
+		8462A6A91DF587E000DCB26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A6A81DF587E000DCB26F /* ViewController.swift */; };
+		8462A6AC1DF587E000DCB26F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8462A6AA1DF587E000DCB26F /* Main.storyboard */; };
+		8462A6AE1DF587E000DCB26F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8462A6AD1DF587E000DCB26F /* Assets.xcassets */; };
+		8462A6B11DF587E000DCB26F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8462A6AF1DF587E000DCB26F /* LaunchScreen.storyboard */; };
+		8462A6BC1DF587E000DCB26F /* SwiftFontelloDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A6BB1DF587E000DCB26F /* SwiftFontelloDemoTests.swift */; };
+		8462A6C71DF587E000DCB26F /* SwiftFontelloDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8462A6C61DF587E000DCB26F /* SwiftFontelloDemoUITests.swift */; };
+		8462A6D51DF5887800DCB26F /* SwiftFontello.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8462A6D41DF5887800DCB26F /* SwiftFontello.framework */; };
+		8462A6D61DF5887800DCB26F /* SwiftFontello.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 8462A6D41DF5887800DCB26F /* SwiftFontello.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8462A6B81DF587E000DCB26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8462A69B1DF587E000DCB26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8462A6A21DF587E000DCB26F;
+			remoteInfo = SwiftFontelloDemo;
+		};
+		8462A6C31DF587E000DCB26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8462A69B1DF587E000DCB26F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8462A6A21DF587E000DCB26F;
+			remoteInfo = SwiftFontelloDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8462A6D71DF5887800DCB26F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8462A6D61DF5887800DCB26F /* SwiftFontello.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8462A6A31DF587E000DCB26F /* SwiftFontelloDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftFontelloDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462A6A61DF587E000DCB26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8462A6A81DF587E000DCB26F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8462A6AB1DF587E000DCB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8462A6AD1DF587E000DCB26F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8462A6B01DF587E000DCB26F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8462A6B21DF587E000DCB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462A6B71DF587E000DCB26F /* SwiftFontelloDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFontelloDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462A6BB1DF587E000DCB26F /* SwiftFontelloDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFontelloDemoTests.swift; sourceTree = "<group>"; };
+		8462A6BD1DF587E000DCB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462A6C21DF587E000DCB26F /* SwiftFontelloDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftFontelloDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8462A6C61DF587E000DCB26F /* SwiftFontelloDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFontelloDemoUITests.swift; sourceTree = "<group>"; };
+		8462A6C81DF587E000DCB26F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8462A6D41DF5887800DCB26F /* SwiftFontello.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftFontello.framework; path = Vendor/SwiftFontello.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8462A6A01DF587E000DCB26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462A6D51DF5887800DCB26F /* SwiftFontello.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6B41DF587E000DCB26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6BF1DF587E000DCB26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8462A69A1DF587E000DCB26F = {
+			isa = PBXGroup;
+			children = (
+				8462A6D41DF5887800DCB26F /* SwiftFontello.framework */,
+				8462A6A51DF587E000DCB26F /* SwiftFontelloDemo */,
+				8462A6BA1DF587E000DCB26F /* SwiftFontelloDemoTests */,
+				8462A6C51DF587E000DCB26F /* SwiftFontelloDemoUITests */,
+				8462A6A41DF587E000DCB26F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8462A6A41DF587E000DCB26F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8462A6A31DF587E000DCB26F /* SwiftFontelloDemo.app */,
+				8462A6B71DF587E000DCB26F /* SwiftFontelloDemoTests.xctest */,
+				8462A6C21DF587E000DCB26F /* SwiftFontelloDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8462A6A51DF587E000DCB26F /* SwiftFontelloDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8462A6A61DF587E000DCB26F /* AppDelegate.swift */,
+				8462A6A81DF587E000DCB26F /* ViewController.swift */,
+				8462A6AA1DF587E000DCB26F /* Main.storyboard */,
+				8462A6AD1DF587E000DCB26F /* Assets.xcassets */,
+				8462A6AF1DF587E000DCB26F /* LaunchScreen.storyboard */,
+				8462A6B21DF587E000DCB26F /* Info.plist */,
+			);
+			path = SwiftFontelloDemo;
+			sourceTree = "<group>";
+		};
+		8462A6BA1DF587E000DCB26F /* SwiftFontelloDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				8462A6BB1DF587E000DCB26F /* SwiftFontelloDemoTests.swift */,
+				8462A6BD1DF587E000DCB26F /* Info.plist */,
+			);
+			path = SwiftFontelloDemoTests;
+			sourceTree = "<group>";
+		};
+		8462A6C51DF587E000DCB26F /* SwiftFontelloDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8462A6C61DF587E000DCB26F /* SwiftFontelloDemoUITests.swift */,
+				8462A6C81DF587E000DCB26F /* Info.plist */,
+			);
+			path = SwiftFontelloDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8462A6A21DF587E000DCB26F /* SwiftFontelloDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462A6CB1DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemo" */;
+			buildPhases = (
+				8462A69F1DF587E000DCB26F /* Sources */,
+				8462A6A01DF587E000DCB26F /* Frameworks */,
+				8462A6A11DF587E000DCB26F /* Resources */,
+				8462A6D71DF5887800DCB26F /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftFontelloDemo;
+			productName = SwiftFontelloDemo;
+			productReference = 8462A6A31DF587E000DCB26F /* SwiftFontelloDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8462A6B61DF587E000DCB26F /* SwiftFontelloDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462A6CE1DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemoTests" */;
+			buildPhases = (
+				8462A6B31DF587E000DCB26F /* Sources */,
+				8462A6B41DF587E000DCB26F /* Frameworks */,
+				8462A6B51DF587E000DCB26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8462A6B91DF587E000DCB26F /* PBXTargetDependency */,
+			);
+			name = SwiftFontelloDemoTests;
+			productName = SwiftFontelloDemoTests;
+			productReference = 8462A6B71DF587E000DCB26F /* SwiftFontelloDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8462A6C11DF587E000DCB26F /* SwiftFontelloDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8462A6D11DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemoUITests" */;
+			buildPhases = (
+				8462A6BE1DF587E000DCB26F /* Sources */,
+				8462A6BF1DF587E000DCB26F /* Frameworks */,
+				8462A6C01DF587E000DCB26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8462A6C41DF587E000DCB26F /* PBXTargetDependency */,
+			);
+			name = SwiftFontelloDemoUITests;
+			productName = SwiftFontelloDemoUITests;
+			productReference = 8462A6C21DF587E000DCB26F /* SwiftFontelloDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8462A69B1DF587E000DCB26F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = miragessee;
+				TargetAttributes = {
+					8462A6A21DF587E000DCB26F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+					};
+					8462A6B61DF587E000DCB26F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8462A6A21DF587E000DCB26F;
+					};
+					8462A6C11DF587E000DCB26F = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 4UVZ98Y2YU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8462A6A21DF587E000DCB26F;
+					};
+				};
+			};
+			buildConfigurationList = 8462A69E1DF587E000DCB26F /* Build configuration list for PBXProject "SwiftFontelloDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8462A69A1DF587E000DCB26F;
+			productRefGroup = 8462A6A41DF587E000DCB26F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8462A6A21DF587E000DCB26F /* SwiftFontelloDemo */,
+				8462A6B61DF587E000DCB26F /* SwiftFontelloDemoTests */,
+				8462A6C11DF587E000DCB26F /* SwiftFontelloDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8462A6A11DF587E000DCB26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462A6B11DF587E000DCB26F /* LaunchScreen.storyboard in Resources */,
+				8462A6AE1DF587E000DCB26F /* Assets.xcassets in Resources */,
+				8462A6AC1DF587E000DCB26F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6B51DF587E000DCB26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6C01DF587E000DCB26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8462A69F1DF587E000DCB26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462A6A91DF587E000DCB26F /* ViewController.swift in Sources */,
+				8462A6A71DF587E000DCB26F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6B31DF587E000DCB26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462A6BC1DF587E000DCB26F /* SwiftFontelloDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8462A6BE1DF587E000DCB26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8462A6C71DF587E000DCB26F /* SwiftFontelloDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8462A6B91DF587E000DCB26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8462A6A21DF587E000DCB26F /* SwiftFontelloDemo */;
+			targetProxy = 8462A6B81DF587E000DCB26F /* PBXContainerItemProxy */;
+		};
+		8462A6C41DF587E000DCB26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8462A6A21DF587E000DCB26F /* SwiftFontelloDemo */;
+			targetProxy = 8462A6C31DF587E000DCB26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8462A6AA1DF587E000DCB26F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8462A6AB1DF587E000DCB26F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8462A6AF1DF587E000DCB26F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8462A6B01DF587E000DCB26F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8462A6C91DF587E000DCB26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8462A6CA1DF587E000DCB26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8462A6CC1DF587E000DCB26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				INFOPLIST_FILE = SwiftFontelloDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8462A6CD1DF587E000DCB26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Vendor",
+				);
+				INFOPLIST_FILE = SwiftFontelloDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8462A6CF1DF587E000DCB26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = SwiftFontelloDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFontelloDemo.app/SwiftFontelloDemo";
+			};
+			name = Debug;
+		};
+		8462A6D01DF587E000DCB26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = SwiftFontelloDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftFontelloDemo.app/SwiftFontelloDemo";
+			};
+			name = Release;
+		};
+		8462A6D21DF587E000DCB26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = SwiftFontelloDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftFontelloDemo;
+			};
+			name = Debug;
+		};
+		8462A6D31DF587E000DCB26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4UVZ98Y2YU;
+				INFOPLIST_FILE = SwiftFontelloDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.miragessee.SwiftFontelloDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftFontelloDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8462A69E1DF587E000DCB26F /* Build configuration list for PBXProject "SwiftFontelloDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462A6C91DF587E000DCB26F /* Debug */,
+				8462A6CA1DF587E000DCB26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8462A6CB1DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462A6CC1DF587E000DCB26F /* Debug */,
+				8462A6CD1DF587E000DCB26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8462A6CE1DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462A6CF1DF587E000DCB26F /* Debug */,
+				8462A6D01DF587E000DCB26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8462A6D11DF587E000DCB26F /* Build configuration list for PBXNativeTarget "SwiftFontelloDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8462A6D21DF587E000DCB26F /* Debug */,
+				8462A6D31DF587E000DCB26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8462A69B1DF587E000DCB26F /* Project object */;
+}
